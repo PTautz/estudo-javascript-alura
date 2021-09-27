@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+
+        document.write("<br>");
+    }
+    function mostra(frase) {
+
+    	pulaLinha();
+    	document.write("<p style='text-align: center;'>" + frase + "</p>" );
+        pulaLinha();
+        
+    }
+
+	var anoInicial = 1528;
+	var anoAtual = 2021;
+	var calculoGeracao = (anoAtual - anoInicial)/28;
+	var geracao = Math.round(calculoGeracao);
+
+  
+	 mostra("<h1 style='text-align: center;'>BEM-VINDO AO MEU PROGRAMA</h1>")
+	 mostra("O número de gerações brasileiras desde 1500 é de  :" + geracao);
+
+
+
+
+</script>

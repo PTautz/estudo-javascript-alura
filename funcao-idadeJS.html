@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+    function titulo(frase) {
+
+        document.write("<h1>" + frase + "</h1>" );
+        document.write("********************************************************************");
+        pulaLinha();
+    }
+    function mostra(frase) {
+
+        pulaLinha();
+        document.write( "<p>" + frase + diferencaIdade + "</p>");
+        pulaLinha();
+    }
+    
+	var idadePatricia = 36;
+	var idadeJorge = 35;
+	var diferencaIdade = idadePatricia - idadeJorge;
+
+
+    titulo("<p>BEM-VINDO AO MEU PROGRAMA</p>");
+    mostra("Nossa diferença de idade é :");
+    
+
+</script>
